@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+ion-content {
+  --background: #e3e3e3
+}
+#botoneshome {
+  left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+h1 {
+  text-align: center;
+  margin-top: 250px;
+}
+#logohome {
+  display: block;
+  margin: auto;
+  width: 300px;
+  margin-top: 48%;
+}
