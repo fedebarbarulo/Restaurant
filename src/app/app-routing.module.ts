@@ -19,11 +19,6 @@ const routes: Routes = [
     path: 'reserva',
     loadChildren: () => import('./reserva/reserva.module').then( m => m.ReservaPageModule)
   },
-  {
-    path: 'info',
-    loadChildren: () => import('./info/info.module').then( m => m.InfoPageModule)
-  },
-  
 
 ];
 

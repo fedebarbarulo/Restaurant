@@ -1,0 +1,11 @@
+.center {
+    display: block;
+    margin: auto;
+    width: 100%;
+   }
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
