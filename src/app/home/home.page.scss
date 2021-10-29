@@ -42,6 +42,20 @@ h1 {
 #logohome {
   display: block;
   margin: auto;
-  width: 300px;
-  margin-top: 48%;
+  width: 80%;
+}
+#logohome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+}
+.center {
+  display: block;
+  margin: auto;
+  width: 100%;
+ }
+ ion-button {
+  margin-left: auto;
+  margin-right: auto;
 }

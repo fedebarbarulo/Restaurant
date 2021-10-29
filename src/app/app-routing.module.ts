@@ -19,6 +19,18 @@ const routes: Routes = [
     path: 'reserva',
     loadChildren: () => import('./reserva/reserva.module').then( m => m.ReservaPageModule)
   },
+  {
+    path: 'menuinicio',
+    loadChildren: () => import('./menuinicio/menuinicio.module').then( m => m.MenuinicioPageModule)
+  },
+  {
+    path: 'menubebidas',
+    loadChildren: () => import('./menubebidas/menubebidas.module').then( m => m.MenubebidasPageModule)
+  },
+  {
+    path: 'menupostres',
+    loadChildren: () => import('./menupostres/menupostres.module').then( m => m.MenupostresPageModule)
+  },
 
 ];
 

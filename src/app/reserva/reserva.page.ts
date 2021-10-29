@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ReservaService } from './reserva.service';
+
+
 
 @Component({
   selector: 'app-reserva',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReservaPage implements OnInit {
 
-  constructor() { }
+  public datitosedepilar: any;
+  constructor(private reservaService: ReservaService) { }
 
-  ngOnInit() {
+  ngOnInit(){
+        this.reservaService.getDatasedes().subscribe(data =>{
+          console.log(data);
+          this.datitosedepilar=data;
+        })
+      }
   }
-
-}
+      

@@ -9,17 +9,17 @@
     justify-content: center;
     height: 100%;
 }
-h1 {
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #eb445a;
-    text-shadow: #cf3c4f;
-    font-size: 25px;
+ion-content{
+
+    --ion-background-color:#3B3B38;
 }
-ion-img {
+.logo {
     width: 35%;
     height: 35%;
     display: block;
     margin: auto;
-    
+}
+.menu1 {
+    display: block;
+    margin: auto;
 }
