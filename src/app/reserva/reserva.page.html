@@ -18,7 +18,7 @@
 
 <ion-item>
   <ion-label>Fecha y Horario</ion-label>
-  <ion-datetime [(ngModel)]="fecha" displayFormat="D MMM H:mm" min=2021-10 max=2021-11 hourValues="18,19,20,21,22,23" minuteValues="00,15,30,45"></ion-datetime>
+  <ion-datetime [(ngModel)]="fecha" displayFormat="D MMM H:mm" min=2021-11 max=2021-12 hourValues="18,19,20,21,22,23" minuteValues="00,15,30,45"></ion-datetime>
 </ion-item>
 <br>
 <ion-list>
@@ -75,6 +75,7 @@
 <ng-container>
   <ion-list style="text-align:center">
           <ion-button (click)="actualizar()" color="danger" (click)="presentAlert()">Confirmar Reserva</ion-button>
+          <br>
   </ion-list>
   </ng-container>
 
